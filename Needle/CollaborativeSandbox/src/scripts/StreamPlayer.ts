@@ -1,21 +1,30 @@
 import { Behaviour, serializeable, VideoPlayer } from "@needle-tools/engine";
+import { InputField } from "@needle-tools/engine/engine-components/ui/InputField";
 import { Object3D } from "three";
 import Hls from "hls.js";
 
-const videoSrc =
-  "https://stream.mux.com/Fyvwzkck4pfe149v4geCckdbR5rq9fJbWLhPVGSKh44.m3u8";
-
+const videoSrc = "https://stream.mux.com/";
+const extension = ".m3u8";
+const playbackIdExample = "Fyvwzkck4pfe149v4geCckdbR5rq9fJbWLhPVGSKh44";
 export class StreamPlayer extends Behaviour {
   @serializeable(null)
   videos?: Array<string>;
   @serializeable(Object3D)
   vidPlayer: VideoPlayer = new VideoPlayer();
+  @serializeable(InputField)
+  playbackId?: InputField;
 
   hls = new Hls();
 
-  start() {
+  onPointerClick() {
     console.log("Stream Player script running...");
-    this.PlayStream(videoSrc);
+    let exampleUrl: string =
+      videoSrc +
+      (this.playbackId == null || this.playbackId.text == ""
+        ? playbackIdExample
+        : this.playbackId.text) +
+      extension;
+    this.PlayStream(exampleUrl);
   }
 
   private PlayStream(url: string) {
