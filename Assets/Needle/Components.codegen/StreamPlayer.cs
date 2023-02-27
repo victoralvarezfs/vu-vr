@@ -9,8 +9,9 @@ namespace Needle.Typescript.GeneratedComponents
 	{
 		public string[] @videos;
 		public UnityEngine.Video.VideoPlayer @vidPlayer = new UnityEngine.Video.VideoPlayer();
+		public UnityEngine.UI.InputField @playbackId;
 		// public undefined @hls; → Could not resolve C# type
-		public void start(){}
+		public void onPointerClick(){}
 	}
 }
 
