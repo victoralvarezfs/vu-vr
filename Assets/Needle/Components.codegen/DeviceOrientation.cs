@@ -7,6 +7,7 @@ namespace Needle.Typescript.GeneratedComponents
 {
 	public partial class DeviceOrientation : UnityEngine.MonoBehaviour
 	{
+		public string @data;
 		public void orientation(string @orientation){}
 	}
 }

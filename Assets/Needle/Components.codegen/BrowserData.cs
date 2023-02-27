@@ -12,6 +12,7 @@ namespace Needle.Typescript.GeneratedComponents
 		public string @event_id;
 		public string @lobbyUrl;
 		public string[] @livestreamSources;
+		public string @data;
 		public void awake(){}
 		public void update(){}
 		public void orientation(string @orientation){}
