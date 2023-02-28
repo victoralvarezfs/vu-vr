@@ -6,37 +6,33 @@ export class UISelector extends Behaviour
 	@serializable(Object3D) 
     uiObjects: Object3D[] | null = null;
 
+	data: string = "";
+
 	update()
 	{		
 		var devOrientation = this.orientation();
-		var string1 = "portrait";
-		let portrait: boolean = string1 === devOrientation;
-		this.switchUI(portrait);
+		this.switchUI(devOrientation);
 	}
 
-	orientation(orientation: string): string
+	orientation(): boolean
     {
         this.data = window.navigator.userAgent;
         var height = window.innerHeight; //window.screen.height * window.devicePixelRatio;
         var width = window.innerWidth;  //window.screen.width * window.devicePixelRatio;
-        var orientation = "";
+        var orientation = false;
         if(width > height)
-            orientation = "Landscape";
+            orientation = false;
         else
-            orientation = "Portrait";
+            orientation = true;
         return orientation;
     }
 
 	switchUI(portrait: boolean)
 	{
-		if(portrait)
+		if(this.uiObjects[0] != null && this.uiObjects[1] != null)
 		{
-			GameObject.setActive(this.uiObjects[0], true);
-			GameObject.setActive(this.uiObjects[1], false);
-		}else
-		{
-			GameObject.setActive(this.uiObjects[1], true);
-			GameObject.setActive(this.uiObjects[0], false);
+		GameObject.setActive(this.uiObjects[0]!, portrait);
+		GameObject.setActive(this.uiObjects[1]!, !portrait);
 		}
 	}
 

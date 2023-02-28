@@ -8,8 +8,9 @@ namespace Needle.Typescript.GeneratedComponents
 	public partial class UISelector : UnityEngine.MonoBehaviour
 	{
 		public UnityEngine.Transform[] @uiObjects;
+		public string @data = "";
 		public void update(){}
-		public void orientation(string @orientation){}
+		public void orientation(){}
 		public void switchUI(bool @portrait){}
 	}
 }
