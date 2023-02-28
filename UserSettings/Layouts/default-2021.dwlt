@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 97
+  controlID: 73
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 156
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 125
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 126
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,22 +395,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Settings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Settings
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\FSStudio\VuVr\Repo2\vu-vr
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6ca0000
-    m_LastClickedID: 51878
-    m_ExpandedIDs: 0000000098ca00009cca0000dacb000000ca9a3b
+    m_SelectedIDs: 44780000
+    m_LastClickedID: 30788
+    m_ExpandedIDs: 00000000b876000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b8760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,18 +469,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Models
-      m_OriginalName: Models
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 51868
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
@@ -536,22 +536,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Settings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Settings
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\FSStudio\VuVr\Repo2\vu-vr
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6ca0000
-    m_LastClickedID: 51878
-    m_ExpandedIDs: 0000000098ca00009cca000000ca9a3b
+    m_SelectedIDs: 44780000
+    m_LastClickedID: 30788
+    m_ExpandedIDs: 00000000b876000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,7 +579,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b8760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,9 +709,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 286b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: dc94ffff4aaeffff
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -961,9 +961,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.946003, y: -1.7461798, z: -6.719857}
+    m_Target: {x: 8.1803, y: -1.2586522, z: -10.776499}
     speed: 2
-    m_Value: {x: 14.946003, y: -1.7461798, z: -6.719857}
+    m_Value: {x: 8.1803, y: -1.2586522, z: -10.776499}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1010,13 +1010,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.055300407, y: 0.9378684, z: -0.17679362, w: 0.29351816}
+    m_Target: {x: 0.06389611, y: 0.9327105, z: -0.20643854, w: 0.2888351}
     speed: 2
-    m_Value: {x: 0.05503339, y: 0.93827754, z: -0.17687069, w: 0.29210168}
+    m_Value: {x: 0.06358403, y: 0.93310815, z: -0.2065265, w: 0.28742504}
   m_Size:
-    m_Target: 12.40914
+    m_Target: 10.175149
     speed: 2
-    m_Value: 12.40914
+    m_Value: 10.175149
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1101,7 +1101,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -1114,7 +1114,7 @@ MonoBehaviour:
       y: 21
       width: 323
       height: 313
-    m_Scale: {x: 0.17466518, y: 0.17466518}
+    m_Scale: {x: 0.18638393, y: 0.18638393}
     m_Translation: {x: 161.5, y: 156.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1122,12 +1122,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -924.62616
-      y: -896
-      width: 1849.2523
-      height: 1792
+      x: -866.491
+      y: -839.6647
+      width: 1732.982
+      height: 1679.3293
     m_MinimalGUI: 1
-  m_defaultScale: 0.17466518
+  m_defaultScale: 0.18638393
   m_LastWindowPixelSize: {x: 323, y: 334}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
