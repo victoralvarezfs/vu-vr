@@ -5,10 +5,10 @@
 
 namespace Needle.Typescript.GeneratedComponents
 {
-	public partial class DeviceOrientation : UnityEngine.MonoBehaviour
+	public partial class UIScreen : UnityEngine.MonoBehaviour
 	{
-		public string @data;
-		public void orientation(string @orientation){}
+		public UnityEngine.Transform[] @uiObjects;
+		public void updatePanels(float @index){}
 	}
 }
 
