@@ -8,7 +8,7 @@ import {
   Subscription,
 } from "../interfaces/StreamResponse.interface";
 
-const baseUrl = "";
+const baseUrl = "https://vu-backend.herokuapp.com";
 
 /**
  * Fetching all streams available

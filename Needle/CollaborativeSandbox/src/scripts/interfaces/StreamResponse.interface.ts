@@ -12,7 +12,7 @@ export interface EventStream {
   UserId: String;
   CategoryId: Number;
   User: User;
-  Ratings?: Rating[];
+  Ratings?: RatingCheck[];
   Tags?: Tag[];
   avgRating?: Number;
 }
