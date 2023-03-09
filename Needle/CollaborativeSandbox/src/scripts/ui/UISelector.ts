@@ -14,7 +14,7 @@ import {
   isQuest,
   getParam,
 } from "@needle-tools/engine/engine/engine_utils";
-import { UIScreen } from "./UIScreen";
+import { UIScreen } from "../ui/UIScreen";
 
 enum Platform {
   Desktop,
