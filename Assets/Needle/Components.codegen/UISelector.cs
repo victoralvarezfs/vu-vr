@@ -11,17 +11,20 @@ namespace Needle.Typescript.GeneratedComponents
 		public UnityEngine.Transform @player;
 		public UnityEngine.GameObject @worldObject;
 		public UnityEngine.Transform[] @uiObjects;
-		// public [] @uis;
+		public Needle.Typescript.GeneratedComponents.UIScreen[] @mobileUIs;
 		public string @data = "";
 		public bool @enteredVR = false;
 		// public Platform @platform; → Could not resolve C# type
+		public UnityEngine.UIElements.Button @_vrButton;
+		public float @currentScreen = 0f;
 		public void start(){}
+		public void OnEnable(){}
 		public void checkPlatform(){}
 		public void update(){}
 		public void orientation(){}
 		public void checkOrientation(){}
-		public void setVRInstructions(){}
 		public void clickedEnterVR(){}
+		public void setVRInstructions(){}
 	}
 }
 
