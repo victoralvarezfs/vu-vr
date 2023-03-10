@@ -12,6 +12,7 @@ namespace Needle.Typescript.GeneratedComponents
 		public UnityEngine.UI.InputField @playbackId;
 		// public undefined @hls; → Could not resolve C# type
 		public void onPointerClick(){}
+		public void getInfoFromRequest(object @muxId){}
 	}
 }
 

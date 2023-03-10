@@ -1,5 +1,9 @@
-import { Behaviour, serializeable, VideoPlayer } from "@needle-tools/engine";
-import { InputField } from "@needle-tools/engine";
+import {
+  Behaviour,
+  serializeable,
+  VideoPlayer,
+  InputField,
+} from "@needle-tools/engine";
 import { Object3D } from "three";
 import Hls from "hls.js";
 
@@ -25,6 +29,12 @@ export class StreamPlayer extends Behaviour {
         : this.playbackId.text) +
       extension;
     this.PlayStream(exampleUrl);
+  }
+
+  public getInfoFromRequest(muxId: String) {
+    let playbackUrl = videoSrc + muxId + extension;
+    this.PlayStream(playbackUrl);
+    //Avatar.setUserName(user);
   }
 
   private PlayStream(url: string) {
