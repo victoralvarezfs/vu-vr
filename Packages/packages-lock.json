@@ -1,19 +1,30 @@
 {
   "dependencies": {
+    "com.needle.csharp-to-typescript": {
+      "version": "0.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.needle.engine-exporter": "2.50.0-pre",
+        "com.unity.code-analysis": "0.1.2-preview"
+      },
+      "url": "https://packages.needle.tools"
+    },
     "com.needle.engine": {
-      "version": "2.62.0-pre",
+      "version": "2.65.0-pre",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.needle.tools"
     },
     "com.needle.engine-exporter": {
-      "version": "2.62.0-pre",
+      "version": "2.65.0-pre",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.needle.engine": "2.62.0-pre",
-        "org.khronos.unitygltf": "1.22.3-pre",
+        "com.needle.engine": "2.65.0-pre",
+        "com.needle.csharp-to-typescript": "0.1.0",
+        "org.khronos.unitygltf": "1.23.0-pre",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.uielements": "1.0.0",
@@ -35,13 +46,18 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.code-analysis": {
+      "version": "0.1.2-preview",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
-      "version": "1.17.2",
+      "version": "2.0.1",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.unity.services.core": "1.0.1"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -118,17 +134,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.services.core": {
-      "version": "1.4.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.nuget.newtonsoft-json": "3.0.2",
-        "com.unity.modules.androidjni": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.shadergraph": {
       "version": "12.1.7",
       "depth": 1,
@@ -197,7 +202,7 @@
       "url": "https://packages.unity.com"
     },
     "org.khronos.unitygltf": {
-      "version": "1.22.3-pre",
+      "version": "1.23.0-pre",
       "depth": 1,
       "source": "registry",
       "dependencies": {
