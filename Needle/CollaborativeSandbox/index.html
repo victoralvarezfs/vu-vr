@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="favicon.ico">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
 
-  <title>Made with Needle</title>
-  
-  <meta property="og:title" content="Made with Needle" />
-  <meta name="description" content="🌵 Made with Needle Engine">
-  <meta property="og:description" content="🌵 Made with Needle Engine" />
-  
-  <meta name="robots" content="index,follow">
-  <meta name="url" content="http://needle.tools">
+    <title>Made with Needle</title>
 
-  <link rel="stylesheet" href="./src/styles/style.css">
-</head>
+    <meta property="og:title" content="Made with Needle" />
+    <meta name="description" content="🌵 Made with Needle Engine" />
+    <meta property="og:description" content="🌵 Made with Needle Engine" />
 
-<body>
+    <meta name="robots" content="index,follow" />
+    <meta name="url" content="http://needle.tools" />
+
+    <link rel="stylesheet" href="./src/styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+
+  <body>
+    <script>
+      // hack for simple-peer
+      window.global = window;
+      var parcelRequire;
+    </script>
+    <script type="module" src="./src/generated/gen.js"></script>
+    <script type="module" src="./src/main.ts"></script>
+
+    <needle-engine>
+      <div class="tooltip">
+        <div id="tooptip-1-content">
+          <h1 class="tooltip-1-h1">Welcome to the VR Room</h1>
+          <p class="tooltip-1-p">
+            Welcome to the VR room where you can enjoy the event while meeting
+            other people. You can also check out the experience in 360!
+          </p>
+          <button class="tooltip-button">Let's Start</button>
+        </div>
+        <div id="tooltip-2-content" style="display: none"></div>
+      </div>
+      <div id="space-360" class="space-360">
+        <h1>360 Portal</h1>
+      </div>
+      <div class="menu-container" onclick="changeMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <button class="tooltip-button button-360">Watch in 360</button>
+
+      <button id="mic-button" class="mic-button">
+        <span
+          class="material-symbols-outlined"
+          style="font-size: 36px; color: #fff"
+          >mic</span
+        >
+      </button>
+      <button id="user-button" class="user-button">
+        <span
+          class="material-symbols-outlined"
+          style="font-size: 36px; color: #fff"
+          >person</span
+        >
+      </button>
+    </needle-engine>
+  </body>
   <script>
-    // hack for simple-peer
-    window.global = window;
-    var parcelRequire;
+    function changeMenu(x) {
+      x.classList.toggle("change");
+    }
   </script>
-  <script type="module" src="./src/generated/gen.js"></script>
-  <script type="module" src="./src/main.ts"></script>
-
-  <needle-engine></needle-engine>
-</body>
 </html>

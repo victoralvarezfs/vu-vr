@@ -74,3 +74,140 @@ needle-engine .webxr-button:disabled {
 needle-engine.presentation-mode .hide-in-presentation {
     display: none !important;
 }
+
+.tooltip-button {
+    background: linear-gradient(90deg, #C228A7 8.61%, #D33397 51.6%, #E53F86 91.39%);
+    border-radius: 13px;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 75%;
+    bottom: 10%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-360 {
+   position: absolute;
+    left: 42.5%;
+    right: 42.5%;
+    top: 85%;
+    bottom: 10%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tooltip {
+    /* Rectangle 41 */
+    box-sizing: border-box;
+    position: absolute;
+    left: 29.64%;
+    right: 29.69%;
+    top: 29.91%;
+    bottom: 36.39%;
+    background: rgba(0, 0, 0, 0.65);
+    border: 2px solid #FFFFFF;
+    border-radius: 14px;
+}
+
+.tooltip-1-h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;   
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tooltip-1-p {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.space-360 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 78%;
+    right: 2%;
+    top: 25%;
+    bottom: 25%;
+    background: rgba(0,0,0,0.55);
+    /*background-image: url(shutterstock_2023227905.jpg); */
+    border: 4px solid #ffffff;
+    border-radius: 15px;
+}
+
+.space-360 h1 {
+    text-align: center;
+    padding-top: 50%;
+    padding-left: 15%;
+    padding-right: 15%;   
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.menu-container {
+  display: inline-block;
+  box-sizing: border-box;
+  background: rgba(0,0,0,1);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.mic-button {
+    box-sizing: border-box;
+    position: absolute;
+    left: 92%;
+    right: 3%;
+    top: 88%;
+    bottom: 5%;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(180deg, #C329A7 0%, #E53F86 100%);
+}
+
+.user-button {
+    box-sizing: border-box;
+    position: absolute;
+    left: 92%;
+    right: 3%;
+    top: 5%;
+    bottom: 88%;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: rgba(0,0,0,0.55);
+}
