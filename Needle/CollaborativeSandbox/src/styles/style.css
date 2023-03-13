@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+h2{
+   color: white !important;
+   padding-left: 35%;
+}
+
+p{
+    text-align: center;
+    padding-left: 15%;
+}
+
+.myMessage
+{
+    background: black;
+    color: white;
+    padding: 20px;
+    display: block;
+    transform: translate(0%, 150%);
+    width: 500px;
+}
+
+.fsButtons
+{
+    background-color: magenta;
+    color: white;
+    transform: translate(550%, 0%);
+}
+
 html {
     height: -webkit-fill-available;
 }
